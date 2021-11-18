@@ -15,6 +15,7 @@
         android:text="Nama"
         />
     <EditText
+        android:id="@+id/namaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
@@ -73,12 +74,14 @@
         android:gravity="center"
         >
         <Button
+            android:id="@+id/simpanButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Simpan"
             android:layout_marginEnd="8dp"
             />
         <Button
+            android:id="@+id/batalButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Batal"
