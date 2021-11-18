@@ -12,58 +12,59 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama"
+        android:text="@string/nama"
         />
     <EditText
         android:id="@+id/namaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:hint="Isi Nama Anda"/>
+        android:hint="@string/isi_nama_anda"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email"
+        android:text="@string/email"
        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:hint="Isi Dengan Email Valid"/>
+        android:hint="@string/isi_dengan_email_valid"/>
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No Handphone"
+        android:text="@string/no_handphone"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="phone"
-        android:hint="No Hp"/>
+        android:hint="@string/no_hp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tanggal Lahir"
+        android:text="@string/tanggal_lahir"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="date"
-        android:hint="Isi Tanggal Lahir"/>
+        android:hint="@string/isi_tanggal_lahir"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jarak (KM)"
+        android:text="@string/jarak_km"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:hint="Isi Jarak"/>
+        android:hint="@string/isi_jarak"/>
 
 
 
@@ -77,14 +78,14 @@
             android:id="@+id/simpanButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Simpan"
+            android:text="@string/simpan"
             android:layout_marginEnd="8dp"
             />
         <Button
             android:id="@+id/batalButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Batal"
+            android:text="@string/batal"
             />
 
     </LinearLayout>
